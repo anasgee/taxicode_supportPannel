@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+body a{
+    text-decoration: none;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body a:hover{
+    text-decoration: underline  ;
+    color: blue;
+}
+#navbar{
+          background:
+            linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url('../assets/navBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed  ;
+    color: white;
+    height: 8rem;
+    padding: 4rem;
+}
+
+.welcome{
+    position: absolute;
+    top: 1.5rem;
+    right: 7.2rem;
+}
+#navbar .navbar-toggler {
+    background-color: #F1F64C;
+   ;
+}
+.navbar_logo{
+    width: 10rem;
+    margin-top: -1.2rem;
+    
+}
+#navbar a{
+color: white;
+}
+.knowledge a{
+    line-height: 2rem;
+    }
+
+.subNav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none ;
+ 
+}
+.subNav ul li{
+    padding: 0.7rem;
+}
+.subNav ul a{
+   text-decoration: none;
+   color: Black;
+   font-size: 1.2rem;
+}
+
+
+.hero_right img{
+    width: 5%;
+    height: 5%;
+    margin-top: 0.3rem;
+    
+}
+hr{
+    
+    border: 1rem solid black;
+    height: 2px;
+    background: black;
+    /* height: 5px; */
+}
+.customer_support_cta img{
+    width: 3%;
+    height: 3%;
+
+}
+
+/* Footer parent */
+.parent{
+    background: black;
+   padding-top: 1rem;
+    color: white ;   
+}
+
+.parent a{
+    color: white;
+}
+.parent ul{
+    list-style-type: none;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+     /* padding: rem;  */
+     margin-top: 1rem;
+    font-size: 2rem; 
+}
+.social-icons i{
+    width: 50px;
+    height: 50px;
+}
+.footer_low{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background: #F1F64C;
+    position: relative;
+    color: #000;
+    height: auto;
+    
+}
+
+.right_low_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons li a .fa{
+    background: #000;
+    color: #F1F64C;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.right_low_footer .copyright-text{
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.paragraph{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* Sign in or sign up links */
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:993px){
+    #navbar{
+        padding: 0;
+        height: auto;
+        
+    }
+    .navbar_logo{
+        width: 7rem;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .copyright-text{
+        font-size: 14px;
+    }
+    }
+@media screen and (max-width:768px){
+    .welcome{
+        top: 5rem;
+        left: 20rem;
+    }
+    .footer_low{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right_low_footer .copyright-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .welcome{
+        top: 5rem;
+        left: 12rem;
+    }
+   
+}
+
+
+@media screen and (max-width:340px){
+    .welcome{
+        top: 5rem;
+        left: 7rem;
+    }
+}
+    @media screen and (min-width:995px){
+    
+      
+
+        .social-icons{
+            padding-left: 5rem;
+    
+        }
+        .copyright-text{
+            font-size: 10px;
+        }
+    
+    }
+    
+    @media screen and (max-width:440px){
+          .footer-link{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            align-self: center;
+        }
+        .welcome{
+            top: 6rem;
+            left: 10rem;
+        }
+        .subNav ul li a{
+            font-size: 0.6rem;
+        }
+        .right_low_footer .copyright-text{
+            display: none;
+        }
+    }

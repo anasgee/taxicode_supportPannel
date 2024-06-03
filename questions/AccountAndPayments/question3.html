@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TexiCode Direct</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://aiksoltech.com/css/track-booking.css">
+
+    <link href="https://aiksoltech.com/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://aiksoltech.com/css/slick-theme.css">
+    <link rel="stylesheet" href="https://aiksoltech.com/css/slick.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        const pagePath = ()=>{
+            const path = window.location.pathname;
+            document.getElementById("path").textContent =  path;
+        }
+        window.onload=pagePath;    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img class="navbar_logo" src="/assets/texicode_logo.png" alt=""></a>
+            <button class="navbar-toggler px-2 mx-2 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <p class="welcome"> Welcome</p>
+                <ul class="navbar-nav ms-auto px-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/public/login.html">Login</a>
+                    </li>
+                    <!-- <li class="nav-item"> <a class="nav-link" href="@" > |</a> </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="subNav bg-body-tertiary">
+        <div class="container">
+
+            <ul>
+                <li><a href="/public/index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="/public/solutions.html">Solutions</a></li>
+                <li>|</li>
+                <li><a href="/public/tickets.html">Tickets</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <!-- Hero Section -->
+
+    <div class="container mt-5">
+
+        <div class="row mb-5 gap-4">
+            <div class="col-sm-12 col-md-7">
+                <h3 class="mb-3">How can we help you today?</h3>
+                <form class="d-flex" role="search">
+                    <input class="form-control p-2 me-2 bg-body-tertiary border-0 rounded-pill" type="search"
+                        placeholder="Enter Your Search Term Here" aria-label="Search">
+                    <button class="btn  rounded-pill" style="font-size: 0.7rem; width: 20%; background-color: #F1F64C;"
+                        type="submit">Search</button>
+            </div>
+            <div class="col-sm-12 col-md-4 hero_right ">
+                <div class="d-flex justify-content-left align-items-center">
+                    <img class="mx-3 mb-3" src="/assets/plus.png" alt="">
+                    <a class="mb-3" href="/public/newTicket.html">New Support Ticket</a>
+                </div>
+                <div class="d-flex justify-content-left align-items-center ">
+                    <img class="mx-3 mb-3" src="/assets/icons.png" alt="">
+                    <a class="mb-3" href="/public/tickets.html">Check Support Ticket Status</a>
+                </div>
+                <div class="d-flex justify-content-left align-items-center">
+                    <img class="mx-3 mb-3" src="/assets/call.png" alt="">
+                    <a class="mb-3" href="/public/tickets.html">+161616161616161</a>
+                </div>
+        </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Knowledge Based -->
+
+    <div class="container knowledge p-3 border rounded ">
+        <div id="path"></div>
+        <div class="main-content p-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="question">
+                        <h5>How do I pay for my trip?</h5>
+                        <p class="fw-light mt-4">You can pay by credit/debit card, PayPal or by cash to the driver on the day. We accept all major cards including American Express as payment. Business customers will have the additional option of applying for a credit account with us. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+
+                <div class="col-sm-12 col-md-6 customer_support_cta mt-4">
+                    <h6 class="mb-3">Related Questions</h6>
+                    <div class=" d-flex justify-content-left align-items-center">
+                        <img class="mx-3" src="/assets/icons_info.png" alt="">
+                        <a href="/questions/bookings/question1.html" class="fw-light">What is a Priority Account and how do I get one?</a>
+                    </div>
+                    <div class=" d-flex justify-content-left align-items-center">
+                        <img class="mx-3" src="/assets/icons_info.png" alt="">
+                        <a href="/questions/bookings/question4.html" class="fw-light">Can I book a vehicle with a child seat?</a>
+                    </div>
+                    <div class=" d-flex justify-content-left align-items-center">
+                        <img class="mx-3" src="/assets/icons_info.png" alt="">
+                        <a href="/questions/guide/question1.html" class="fw-light">How does the website work?</a>
+                    </div> 
+                    <div class=" d-flex justify-content-left align-items-center">
+                        <img class="mx-3" src="/assets/icons_info.png" alt="">
+                        <a href="/questions/buisnessCustomers/question2.html" class="fw-light">Can I have a credit account?</a>
+                    </div>
+                    <div class=" d-flex justify-content-left align-items-center">
+                        <img class="mx-3" src="/assets/icons_info.png" alt="">
+                        <a href="/questions/AccountAndPayments/question2.html" class="fw-light">My journey was not completed / driver failed to show - how do I get a refund?</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- child CTA -->
+
+
+    <div style="background-color: #F1F64C; height: 25vh;" class="container-fluid mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-sm-12 col-md-6 pt-5">
+                    <h4>Cannot Find What You Are Looking For? Call Us now on <b>0333 7772 9793</b></h4>
+                    <button class="btn  rounded-pill "
+                        style="font-size: 1rem; height:3rem; width: 40%;color:#F1F64C; background: #000000;"
+                        type="submit">Contact Us</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer  -->
+    <!--  footer  Section -->
+    <div class="parent">
+
+        <footer class="site-footer">
+            <div class="container mt-5 location">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h6 class="mb-4"><img src="https://aiksoltech.com/images/23_03_17_Untitled-design 1@2x.png"
+                                height="40px"></h6>
+                        <p class="text-justify d-inline">We've cultivated a network of taxi operators leveraging our
+                            advanced technology to seamlessly accept online bookings
+                        </p>
+                        <div class="mt-5">
+                            <span class="icon">
+                                <i class="fa fa-phone" style="font-size:24px"></i>
+                            </span>
+                            <span class="ml-2"><a href="tel:+03333390785">0333 339 0785</a></span>
+                            <div class="mt-3">
+                                <span class="icon">
+                                    <i class="fa fa-envelope" style="font-size:24px"></i>
+                                </span>
+                                <span class="ml-2"><a
+                                        href="mailto:help@taxicodedirect.com">help@taxicodedirect.com</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    </style>
+                    <div class="col-xs-6 col-md-2">
+                        <h6 class="underline-text mb-5">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="https://aiksoltech.com">Home</a></li>
+                            <li><a href="https://aiksoltech.com/about-us">About Us</a></li>
+                            <li><a href="index.html">Help</a></li>
+                            <li><a href="https://aiksoltech.com/create-partner">Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <h6 class="underline-text mb-5">Important Policies</h6>
+                        <ul class="footer-links">
+                            <li><a href="https://aiksoltech.com/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="https://aiksoltech.com/terms-and-conditions">Terms And Conditions</a></li>
+                            <li><img src="https://aiksoltech.com/images/footer_icon.png" class="img-fluid"
+                                    style="width: 120px; height: auto !important;"></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-md-3 Other-Links">
+                        <h6 class="underline-text mb-5">Other Links</h6>
+                        <ul class="footer-links">
+                            <li>Minicab, Minibus, Chauffeur, and Coach Hire Businesses:</li>
+                            <a href="https://aiksoltech.com/membership">Get membership with us, Apply Now!</a>
+                            <li class="travel-companies">Travel Agencies and TMCs:</li>
+                            <a href="https://aiksoltech.com/become-part">Become part of our network, for seamless
+                                booking experience</a>
+                            <li class="travel-companies">Business & Education Accounts with 30 Days Payment Flexibility
+                            </li>
+                            <a href="https://aiksoltech.com/apply-now">Apply Now!</a>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </footer>
+
+
+
+        <!-- Footer -->
+
+        <div class="footer_low">
+            <div class="left_low_footer">
+                <div class="soical_icons_cta">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/taxicodedirect"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/@taxicodedirect1983"><i
+                                    class="fa fa-youtube"></i></a></li>
+                        <li><a class="dribbble" href="https://www.instagram.com/taxicodedirect18/"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/taxicode-direct/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_low_footer">
+                <div>
+                    <p class="copyright-text ">&copy; Copyright 2018 - 2024 All Rights Reserved by TaxiCode Direct
+                        Limited
+                        <a href="#"></a>
+                    </p>
+                    <p class="copyright-text">&#174; TAXICODE DIRECT is the registered trademark of TaxiCode Direct
+                        Limited</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="split-div ">
+            <div class="row content d-flex" id="lower_footer">
+                <div class="col-md-7 col-sm-6 col-xs-12 footer-link">
+                    
+                    <div style="margin-top: 0px;"></div>
+                </div>
+                <div class="col-md-5 col-sm-6 col-xs-12 copyright-footer">
+                   
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

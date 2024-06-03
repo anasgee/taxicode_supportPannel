@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('font/Poppins-Medium.eot');
+    src: url('font/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Medium.woff2') format('woff2'),
+        url('font/Poppins-Medium.woff') format('woff'),
+        url('font/Poppins-Medium.ttf') format('truetype'),
+        url('font/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('font/Poppins-Bold.eot');
+    src: url('font/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Bold.woff2') format('woff2'),
+        url('font/Poppins-Bold.woff') format('woff'),
+        url('font/Poppins-Bold.ttf') format('truetype'),
+        url('font/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('font/Poppins-Regular.eot');
+    src: url('font/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Regular.woff2') format('woff2'),
+        url('font/Poppins-Regular.woff') format('woff'),
+        url('font/Poppins-Regular.ttf') format('truetype'),
+        url('font/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('font/Poppins-SemiBold.eot');
+    src: url('font/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-SemiBold.woff2') format('woff2'),
+        url('font/Poppins-SemiBold.woff') format('woff'),
+        url('font/Poppins-SemiBold.ttf') format('truetype'),
+        url('font/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('font/Poppins-Bold_1.eot');
+    src: url('font/Poppins-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('font/Poppins-Bold_1.woff2') format('woff2'),
+        url('font/Poppins-Bold_1.woff') format('woff'),
+        url('font/Poppins-Bold_1.ttf') format('truetype'),
+        url('font/Poppins-Bold_1.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+                     /*support login css*/
+
+                .inputtext1
+        {
+            background-color: #F3F3F3; 
+            
+            border-radius: 94px; /* Set border radius */
+            border: 1px solid #ccc; /* Add a border */
+            padding: 8px; /* Add padding */
+            margin-bottom: 10px; /* Add margin bottom */
+             /* Set width to 100% */
+            box-sizing: border-box;
+             width: 390px; /* Set initial width */
+         /* Adjust padding as needed */
+            box-sizing: border-box;
+            border: none; /* Ensure padding and border included in width */
+            height: 58px;
+        }
+        .inputtext {
+            background-color: #f3f3f3;
+
+            border-radius: 94px; /* Set border radius */
+            border: 1px solid #ccc; /* Add a border */
+            padding: 8px; /* Add padding */
+            margin-bottom: 10px; /* Add margin bottom */
+            /* Set width to 100% */
+            box-sizing: border-box;
+            width: 390px; /* Set initial width */
+            /* Adjust padding as needed */
+            height: 58px;
+            box-sizing: border-box;
+            border: none; /* Ensure padding and border included in width */
+            font-family: "Poppins-Regular";
+            font-size: 16px;
+            color: #7a7a7a;
+        }
+
+/* Home Coming Soon */
+.navbarlogo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.comingsoonimage{
+width: 200px;
+height: auto;
+}
+.homecomingsoontext {
+font-family: "Poppins-Bold";
+font-size: 24px;
+color: #f1f64c;
+}
+.homecomingsoontext1 {
+font-family: "Poppins-ExtraBold";
+font-size: 64px;
+color: white;
+}
+.countercontainer{
+background: linear-gradient(to right, #DCEB1F, #F3BD02);
+
+height: auto;
+}
+.counter {
+color: black;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.counter .count {
+font-family: "Poppins-ExtraBold";
+font-size: 48px;
+margin-right: 10px;
+}
+
+.counter .text {
+ font-family: "Poppins-Bold";
+font-size: 20px;
+}  
+        textarea {
+            font-family: "Poppins-Regular";
+            font-size: 16px;
+            background-color: #f3f3f3;
+            color: #7a7a7a;
+            /* Set background color */
+            border-radius: 10px; /* Set border radius */
+            border: 1px solid #ccc; /* Add a border */
+            padding: 8px; /* Add padding */
+            margin-bottom: 10px; /* Add margin bottom */
+            width: 100%; /* Set width to 100% */
+            box-sizing: border-box;
+            border: none; /* Ensure padding and border included in width */
+        }
+
+        /* Style submit button */
+        .ticketbutton {
+            font-family: "Poppins-SemiBold";
+            font-size: 16px;
+            background-color: #f1f64c; /* Green */
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            width: 120px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+.psw{
+    padding: 23px 0px;
+}
+.psw input{
+   height: 58px;
+   border-radius: 94px;
+}
+
+        .formlabel {
+            font-family: "Poppins-Medium";
+    font-size: 20px;
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .inputtext1{
+            padding: px;
+    padding:5px ;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #7A7A7A;
+        }
+        .checkbox-container {
+        font-family: "Poppins-Regular";
+    font-size: 14px;
+   display: block;
+  position: relative;
+  padding-left: 32px; /* Adjust this value to increase/decrease space */
+  cursor: pointer;
+  user-select: none;
+  color: #7A7A7A; /* Change the text color */
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 2px solid black; /* Border color */
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 5px;
+    top: -1px;
+    width: 6px;
+    height: 15px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+ .google-button {
+
+        width: 278px;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  border: 1px solid #000; /* Black border */
+  padding: 19px 22px; /* Adjust padding as needed */
+  display: inline-flex;
+  align-items: left;
+  justify-content: left;
+  background-color: transparent; /* No background color */
+  cursor: pointer;
+  border-radius: 4px;
+   /* Adjust font size as needed */
+}
+.google-button span{
+text-align: left;
+}
+
+.google-button img {
+  max-width: 100px; /* Limit the width of the Google logo */
+  margin-right: 10px; /* Space between the image and text */
+}
+.half-color-text {
+  display: inline-block;
+}
+.half-color-text.pt-5{
+    padding-top: 137px !important;
+}
+.second-half a{
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+    color: #000;
+}
+
+.first-half {
+    font-family: "Poppins-Medium";
+    font-size: 14px ;
+    color: #7A7A7A;/* Change color of first half */
+}
+
+.second-half {
+  font-family: "Poppins-Bold";
+    font-size: 14px;
+    color: black; /* Change color of second half */
+}
+
+/*help tickets new*/
+
+
+
+
+@media screen and (max-width: 768px) {
+    .inputtext {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
